@@ -3,11 +3,11 @@
     "description": "Pagible CMS - Backup and restore",
     "homepage": "https://pagible.com",
     "type": "library",
-    "license": "MIT",
+    "license": "LGPL-3.0-only",
     "require": {
         "php": "^8.2",
         "ext-zip": "*",
-        "aimeos/pagible-core": "*@dev"
+        "aimeos/pagible-core": "0.11.*"
     },
     "require-dev": {
         "orchestra/testbench": "^9.0||^10.0||^11.0"
